@@ -1,0 +1,19 @@
+
+set nocompatible
+set encoding=utf-8
+
+" line number
+set nu
+
+" replace tab to space
+set expandtab
+set tabstop=2
+
+" each indent use 2 space
+set shiftwidth=2
+
+" set auto indent
+set ai
+
+" set mouse (no mouse in edit mode)
+set mouse=nvc
