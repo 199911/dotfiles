@@ -2,8 +2,19 @@
 set nocompatible
 set encoding=utf-8
 
+" Update terminal title
+set title
+
+" show command
+set showcmd
+
 " line number
 set nu
+
+set ruler
+
+" Should not have more than 80 character in one line
+set colorcolumn=80
 
 " replace tab to space
 set expandtab
@@ -11,6 +22,18 @@ set tabstop=2
 
 " each indent use 2 space
 set shiftwidth=2
+
+" enable hybrid line number mode
+set relativenumber
+set number
+
+" Show only absolute line number in insert mode
+" https://jeffkreeftmeijer.com/vim-number/
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 
 " set auto indent
 set ai
