@@ -20,6 +20,9 @@ set colorcolumn=80
 set expandtab
 set tabstop=2
 
+" Make the backspace remote the whole tab after expanding tab to space
+set softtabstop=2
+
 " each indent use 2 space
 set shiftwidth=2
 
