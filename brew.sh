@@ -11,6 +11,7 @@ brew upgrade
 
 brew install autojump
 brew install node
+brew install tldr
 brew install wget
 brew install yarn
 brew install zsh
