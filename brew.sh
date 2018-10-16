@@ -10,6 +10,7 @@ brew upgrade
 
 
 brew install autojump
+brew install bat
 brew install node
 brew install tldr
 brew install wget
