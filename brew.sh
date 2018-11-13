@@ -17,6 +17,8 @@ brew install wget
 brew install yarn
 brew install zsh
 brew install zsh-completions
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 brew cask install caffeine
 brew cask install clipy
