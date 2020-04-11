@@ -8,8 +8,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-
-brew install autojump
+# After install autojump, need to run an command, better run manually
+# brew install autojump
 brew install bat
 brew install node
 brew install tldr
@@ -21,7 +21,6 @@ brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 brew cask install caffeine
-brew cask install clipy
 brew cask install docker
 brew cask install firefox
 brew cask install google-chrome
